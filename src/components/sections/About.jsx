@@ -62,12 +62,6 @@ export const About = () => {
             <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
             <ul className="list-disc list-inside space-y-2">
               <li>
-                <strong> B.Sc. in Geography </strong> - Adamawa State University
-                (2012-2018)
-              </li>
-              <li>GIS, Simulation-based Learning Environment</li>
-
-              <li>
                 <strong> MSc. in Computing </strong> - University of Roehampton
                 (2025-2025)
               </li>
@@ -75,6 +69,12 @@ export const About = () => {
                 Game Design, Software Development, AR/VR Technologies, Web
                 Development
               </li>
+
+              <li>
+                <strong> B.Sc. in Geography </strong> - Adamawa State University
+                (2012-2018)
+              </li>
+              <li>GIS, Simulation-based Learning Environment</li>
             </ul>
           </div>
 
