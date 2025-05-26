@@ -79,7 +79,7 @@ export const About = () => {
           </div>
 
           <div className="p-6 rounded-xl border-gray-400 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4"> 🏫 Awards/Achievements </h3>
+            <h3 className="text-xl font-bold mb-4"> 🏅 Awards/Achievements </h3>
             <ul className="list-disc list-inside space-y-2">
               <li>
                 Winner – Best AR Educational Game Concept, Roehampton Showcase
