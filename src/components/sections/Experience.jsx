@@ -105,7 +105,7 @@ const Experience = () => {
             <Details
               company={"FUK"}
               position={"Web Developer"}
-              companyLink={"https://executivefootball.org"}
+              companyLink={"https://fukashere.edu.ng"}
               time={"2017 - Jan, 2019"}
               address={"Gombe, Nigeria"}
               work={

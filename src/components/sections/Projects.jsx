@@ -82,7 +82,7 @@ export const Projects = () => {
               category={"web design"}
               stack={["Wordpress", "PHP"]}
               description={
-                "Built a school portal for the Federal University of Kashere for managing thier operations."
+                "Built a school portal for the Federal University of Kashere for managing their operations."
               }
               link={"https://fukashere.edu.ng"}
               image={"/kashere_screenshot.png"}
@@ -92,7 +92,7 @@ export const Projects = () => {
               category={"web design"}
               stack={["Wordpress", "PHP"]}
               description={
-                "Built a school portal for the University of Calabar for managing thier operations."
+                "Built a school portal for the University of Calabar for managing their operations."
               }
               link={"https://www.unical.edu.ng/"}
               image={"/unical_screenshot.png"}
@@ -102,7 +102,7 @@ export const Projects = () => {
               category={"web design"}
               stack={["React", "Javascript"]}
               description={
-                "Built a school portal for the University of Calabar for managing thier operations."
+                "Built a portfolio website for EFMA football agency for showcasing their work and accepting customer's feedbacks."
               }
               link={"https://www.executivefootball.org/"}
               image={"/efma_screenshot.png"}
@@ -112,19 +112,21 @@ export const Projects = () => {
               name={"Graphic Design"}
               category={"graphics"}
               stack={["CorelDraw", "Photoshop", "Canva"]}
-              description={"A collection of my graphic design projects"}
-              link={"https://www.executivefootball.org/"}
+              description={"A collection of my graphic design projects."}
+              link={"#"}
               image={"/flyer.jpg"}
             />
 
-            {/* <Project
+            <Project
               name={"3D Game Development"}
               category={"gaming"}
-              stack={["CorelDraw", "Photoshop", "Canva"]}
-              description={"A collection of my graphic design projects"}
-              link={"https://www.executivefootball.org/"}
+              stack={["Unity", "Vuforia"]}
+              description={
+                "A collection of my 3D and AR/VR game development projects."
+              }
+              link={"#"}
               image={"/game_dev.jpg"}
-            /> */}
+            />
           </div>
         </div>
       </RevealOnScroll>

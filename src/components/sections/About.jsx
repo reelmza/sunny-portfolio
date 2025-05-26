@@ -1,13 +1,7 @@
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailwindCSS",
-    "Svelte",
-  ];
+  const frontendSkills = ["HTML", "CSS", "Javascript", "React JS"];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Python", "JavaScript", "PHP", "C#"];
 
   return (
     <section
@@ -22,8 +16,10 @@ export const About = () => {
 
         <div className="rounded-xl p-8 border-gray-400 border hover:-translate-y-1 transition-all">
           <p className="text-gray-800 mb-6">
-            Passionate developer with expertise in building scalable web
-            applications and creating innovative solutions.
+            Passionate developer bridging design and development across web
+            applications, graphics, and game experiences. Focused on creating
+            digital solutions that combine technical excellence with engaging
+            visual design.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -70,12 +66,7 @@ export const About = () => {
                 (2012-2018)
               </li>
               <li>GIS, Simulation-based Learning Environment</li>
-            </ul>
-          </div>
 
-          <div className="p-6 rounded-xl border-gray-400 border hover:-translate-y-1 transition-all">
-            <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-            <ul className="list-disc list-inside space-y-2">
               <li>
                 <strong> MSc. in Computing </strong> - University of Roehampton
                 (2025-2025)
@@ -83,6 +74,29 @@ export const About = () => {
               <li>
                 Game Design, Software Development, AR/VR Technologies, Web
                 Development
+              </li>
+            </ul>
+          </div>
+
+          <div className="p-6 rounded-xl border-gray-400 border hover:-translate-y-1 transition-all">
+            <h3 className="text-xl font-bold mb-4"> 🏫 Awards/Achievements </h3>
+            <ul className="list-disc list-inside space-y-2">
+              <li>
+                Winner – Best AR Educational Game Concept, Roehampton Showcase
+                2025
+              </li>
+              <li>
+                Successfully deployed AR demo app on iOS via Xcode with
+                integrated sound and particle effects
+              </li>
+
+              <li>
+                Runner-up – Virtual Design Sprint, Unity Student Game Jam (2024)
+              </li>
+
+              <li>
+                Finalist – African Creative Tech Hackathon for Education and
+                Social Impact (2023)
               </li>
             </ul>
           </div>
