@@ -14,13 +14,13 @@ export const Home = () => {
 
           <p className="text-gray-800 text-lg lg:text-3xl mb-10 max-w-lg mx-auto bg-reds-100">
             <span className="lg:hidden">
-              I’m a full-stack developer who loves crafting clean web
-              applications.
+              I’m a software developer, graphics designer and AR/VR game
+              developer.
             </span>
 
             <span className="hidden lg:block">
-              I’m a full-stack developer who loves crafting clean, scalable web
-              applications.
+              I’m a software developer, graphics designer and AR/VR game
+              developer.
             </span>
           </p>
           <div className="flex justify-center space-x-4">
