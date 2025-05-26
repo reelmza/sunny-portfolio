@@ -3,6 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
 
 export const Contact = () => {
+  const [loading, setLoading] = useState(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -12,6 +13,7 @@ export const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    setLoading("email");
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -22,8 +24,12 @@ export const Contact = () => {
       .then((result) => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
+        setLoading(null);
       })
-      .catch(() => alert("Oops! Something went wrong. Please try again."));
+      .catch(() => {
+        alert("Oops! Something went wrong. Please try again.");
+        setLoading(null);
+      });
   };
 
   return (
@@ -87,7 +93,7 @@ export const Contact = () => {
               type="submit"
               className="w-full bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
             >
-              Send Message
+              {loading === "email" ? "Sending Message..." : "Send Message"}
             </button>
           </form>
         </div>
