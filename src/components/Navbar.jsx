@@ -12,7 +12,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             href="#home"
             className="font-mono text-xl font-bold text-neutral-800"
           >
-            sunny<span className="text-blue-500">.dev</span>{" "}
+            sundayadams<span className="text-blue-500">.net</span>{" "}
           </a>
 
           <div
