@@ -63,7 +63,7 @@ export const About = () => {
             <ul className="list-disc list-inside space-y-2">
               <li>
                 <strong> MSc. in Computing </strong> - University of Roehampton
-                (2025-2025)
+                (2024-2025)
               </li>
               <li>
                 Game Design, Software Development, AR/VR Technologies, Web
